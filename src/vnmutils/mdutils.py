@@ -4,7 +4,7 @@ import re
 import os
 from pathlib import Path
 
-from idrangepathstore import IDRangePathStore
+from .idrangepathstore import IDRangePathStore
 
 SCUID_SEGMENT_PATHS = IDRangePathStore()
 
