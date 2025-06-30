@@ -1,0 +1,16 @@
+[project]
+name = "vnmutils"
+version = "0.0.1"
+description = "Shared utilities for Vinaya Notes Module builders"
+authors = [
+  { name="Khemarato Bhikkhu" }
+]
+requires-python = ">=3.8"
+dependencies = [
+  "requests"
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
