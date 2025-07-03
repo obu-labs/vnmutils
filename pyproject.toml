@@ -1,6 +1,6 @@
 [project]
 name = "vnmutils"
-version = "0.0.3"
+version = "0.0.4"
 description = "Shared utilities for Vinaya Notes Module builders"
 authors = [
   { name="Khemarato Bhikkhu" }
