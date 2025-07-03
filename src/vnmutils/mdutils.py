@@ -32,7 +32,7 @@ def abs_path_to_obsidian_link_text(path: Path, relative_to: Path) -> str:
     relative_to = relative_to.parent
   relpath = os.path.relpath(path, relative_to)
   return "](" + \
-    relpath.replace(' ', '%20') + \
+    relpath.replace(' ', '%20').replace('(', '%28').replace(')', '%29') + \
     ")"
   
 # This is the style for the links that Ajahn Brahmali includes in his notes
